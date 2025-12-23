@@ -43,9 +43,10 @@ Apresentações em PDF das aulas:
 
 | Slide | Assunto |
 |-------|---------|
-| `Aula1Nova.pdf` | Fundamentos de Banco de Dados |
-| `Aula2Nova.pdf` | Continuação dos conceitos |
-| `Aula Normalizacao.pdf` | Normalização de Bancos de Dados |
+| `Aula1.pdf` | Fundamentos de Banco de Dados |
+| `Aula2.pdf` | Continuação dos conceitos |
+| `Aula3.pdf` | Normalização de Bancos de Dados |
+| `Aula4.pdf` | SQL |
 
 ## 🎓 Tópicos Abordados
 
