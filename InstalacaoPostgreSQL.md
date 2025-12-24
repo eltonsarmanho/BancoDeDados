@@ -1,4 +1,3 @@
-Aqui está um guia completo em formato Markdown, pronto para ser copiado para um arquivo `README.md` ou documentação do seu projeto.
 
 ```markdown
 # Guia de Instalação e Configuração: PostgreSQL e pgAdmin 4 (Linux)
