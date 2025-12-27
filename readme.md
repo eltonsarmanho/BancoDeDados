@@ -1,6 +1,6 @@
-# 📚 Material da Disciplina de Banco de Dados
+# 📚 Material da Disciplina de Banco de Dados ou Modelagem de Dados
 
-Repositório contendo todo o material relacionado à disciplina de **Banco de Dados**, incluindo slides, scripts SQL, exercícios, notebooks Python e referências bibliográficas.
+Repositório contendo todo o material relacionado à disciplina, incluindo slides, scripts SQL, exercícios, notebooks Python e referências bibliográficas.
 
 ---
 
@@ -10,22 +10,8 @@ Repositório contendo todo o material relacionado à disciplina de **Banco de Da
 
 | Guia | Quando usar |
 |------|-------------|
-| 📖 [README.md](README.md) | Visão geral do projeto (você está aqui) |
-| ⚡ [QUICKSTART.md](QUICKSTART.md) | **Configuração rápida em 3 passos** |
-| 📋 [SETUP.md](SETUP.md) | Guia detalhado passo a passo |
-| 🔧 `setup.sh` ou `setup.bat` | **Scripts automáticos** (recomendado) |
-
-### Configuração Automática (1 comando):
-
-**Linux/Mac:**
-```bash
-./setup.sh
-```
-
-**Windows:**
-```cmd
-setup.bat
-```
+| 📖 [README.md](README.md) | Visão geral do conteúdo (você está aqui) |
+| 📋 [InstalacaoPostgreSQL.md](InstalacaoPostgreSQL.md) | Guia detalhado passo a passo no linux|
 
 ---
 
@@ -34,15 +20,12 @@ setup.bat
 ```
 BancoDeDados/
 ├── 📄 readme.md                # Este arquivo
-├── 📄 SETUP.md                 # Guia detalhado de instalação
-├── 📄 QUICKSTART.md            # Guia rápido visual
-├── 📄 requirements.txt         # Dependências Python
-├── 🔧 setup.sh                 # Script automático (Linux/Mac)
-├── 🔧 setup.bat                # Script automático (Windows)
+├── 📄 InstalacaoPostgreSQL.md  # Sobre a instalação do Banco de dados no Linux
 ├── 📁 venv/                    # Ambiente virtual (criado após setup)
 └── 📁 BDI/
     ├── 📁 Notebook/            # Jupyter Notebooks
     │   └── 📓 main.ipynb       # Notebook sobre ORM e Engenharia Reversa
+    │   └── 📄 requirements.txt         # Dependências Python
     ├── 📁 Books/               # Livros e referências
     ├── 📁 Scripts/             # Scripts SQL
     └── 📁 Slides/              # Apresentações das aulas
@@ -105,29 +88,9 @@ Apresentações em PDF das aulas:
 - ✅ Chaves primárias e estrangeiras
 - ✅ Exercícios práticos
 
-## 🚀 Como Usar
-
-### Executar Scripts SQL
-
-1. **Usando PostgreSQL (recomendado):**
-   ```bash
-   psql -U seu_usuario -d seu_banco -f BDI/Scripts/ScriptAula.sql
-   ```
-
-2. **Usando pgAdmin:**
-   - Abrir pgAdmin
-   - Conectar ao servidor PostgreSQL
-   - Abrir uma nova janela de Query
-   - Copiar e colar o conteúdo do script
-   - Executar (F5 ou botão Execute)
-
-3. **Usando outro SGBD:**
-   - Adapte os comandos SQL conforme a sintaxe do seu SGBD
-   - Os scripts utilizam padrão ANSI SQL
-
 ### Estudar os Conceitos
 
-1. Leia primeiro os slides de introdução (Aula1Nova.pdf)
+1. Leia primeiro os slides de introdução 
 2. Estude normalização (Aula Normalizacao.pdf)
 3. Pratique com os scripts em Scripts/
 4. Resolva o exercício final (BancoExercicioFinal.sql)
@@ -263,39 +226,6 @@ O arquivo `requirements.txt` contém as seguintes bibliotecas:
 
 ---
 
-### 🔍 Troubleshooting (Resolução de Problemas)
-
-#### **Problema 1: "pip não encontrado"**
-```bash
-# Instalar pip (Ubuntu/Debian)
-sudo apt-get install python3-pip
-
-# Instalar pip (macOS)
-python3 -m ensurepip --upgrade
-
-# Instalar pip (Windows)
-# Reinstale o Python marcando "Add Python to PATH"
-```
-
-#### **Problema 2: Erro ao instalar psycopg2**
-```bash
-# Ubuntu/Debian - Instalar dependências
-sudo apt-get install libpq-dev python3-dev
-
-# macOS - Usar Homebrew
-brew install postgresql
-
-# Windows - Usar psycopg2-binary (já incluído no requirements.txt)
-```
-
-#### **Problema 3: Permissão negada no PowerShell**
-```powershell
-# Executar como Administrador e permitir scripts
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
----
-
 ## 🔧 Requisitos (Resumo)
 
 - PostgreSQL 10+ (para executar os scripts)
@@ -320,13 +250,7 @@ Após estudar este material, você será capaz de:
 ✨ Implementar relacionamentos e integridade referencial  
 ✨ Resolver problemas de design de BD  
 
-## 📧 Informações
-
-- **Disciplina:** Banco de Dados
-- **Formato:** Presencial com material online
-- **Referência:** Sistema BDI (Banco de Dados Integrado)
-
 ---
 
 **Última atualização:** Dezembro de 2025  
-**Autor/Organizador:** Material da disciplina de Banco de Dados
+**Autor/Organizador:** Material da disciplina de Banco de Dados ou Modelagem de Dados
