@@ -1,0 +1,22 @@
+# ===================================
+# Dependências do Projeto
+# Banco de Dados - Material Didático
+# ===================================
+
+# ORM e Banco de Dados
+sqlalchemy>=2.0.0
+peewee>=3.17.0
+
+# Migrações de Banco de Dados
+alembic>=1.13.0
+
+# Driver PostgreSQL
+psycopg2-binary>=2.9.9
+
+# Jupyter Notebook e análise
+jupyter>=1.0.0
+ipykernel>=6.27.0
+notebook>=7.0.0
+
+# Utilitários
+python-dotenv>=1.0.0
